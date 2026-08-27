@@ -27,10 +27,10 @@ author:
   name             : "Bill Wang"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Fellow"
-  location         :
+  location         : "Austin, Texas"
   employer         : "University of Texas at Austin"
   uri              : # URL
-  email            : "lei.wang@austin.utexas.edu"
+  email            : lei.wang@austin.utexas.edu
 
   # Academic websites
   academia         : # URL
