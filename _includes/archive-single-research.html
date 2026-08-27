@@ -5,7 +5,7 @@
     </h2>
 
     {% if include.show_publication_details %}
-      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
+      <p><i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
     {% endif %}
 
     <div class="archive__item-excerpt" itemprop="description">
