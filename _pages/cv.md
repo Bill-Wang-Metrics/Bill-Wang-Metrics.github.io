@@ -7,6 +7,4 @@ redirect_from:
   - /resume
 ---
 
-My curriculum vitae will be available here soon.
-
-For the latest updates, please visit my [GitHub profile](https://github.com/Bill-Wang-Metrics).
+You can [view or download my curriculum vitae](/files/CV_Bill_Wang.pdf).
