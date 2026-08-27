@@ -37,3 +37,28 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+/* Restrained type scale for the Research page. */
+.archive.research-page {
+  > .page__title {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  > h2 {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .archive__item-title {
+    font-size: 18px;
+    line-height: 1.35;
+  }
+
+  .archive__item-excerpt,
+  .archive__item-excerpt p,
+  .archive__item > p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
