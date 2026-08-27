@@ -8,4 +8,5 @@ paperurl: "https://arxiv.org/abs/2502.15072"
 ---
 
 With [Zhenbang Jiao](https://www.linkedin.com/in/zbjiao/) and [Fangyi Wang](https://fw258.github.io/).<br>
+
 *Accepted by AISTATS 2026.*
