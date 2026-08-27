@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am Bill Wang. This website is a home for my research, publications, teaching, and academic activities.
+Welcome! I am Bill Wang (汪磊).
 
-I am currently preparing the site. Please check back soon for updates.
+I received my Ph.D. in Economics from The Ohio State University, where I was advised by Professor [Jason Blevins](https://jblevins.org/). In Fall 2026, I will join The University of Texas at Austin as a postdoctoral fellow, working with Professor [Peter Bergman](https://www.learningcollider.org/peter-bergman).
+
+My research focuses on algorithmic fairness in public policy. 
