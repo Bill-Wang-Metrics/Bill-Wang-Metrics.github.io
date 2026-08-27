@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Bill Wang"
+title                    : "Lei Bill Wang"
 title_separator          : "-"
-name                     : &name "Bill Wang"
+name                     : &name "Lei Bill Wang"
 description              : &description "Bill Wang's academic website"
 url                      : "https://bill-wang-metrics.github.io"
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -24,7 +24,7 @@ repository               : "Bill-Wang-Metrics/Bill-Wang-Metrics.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Bill Wang"
+  name             : "Lei Bill Wang"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Fellow"
   location         : "Austin, Texas"
