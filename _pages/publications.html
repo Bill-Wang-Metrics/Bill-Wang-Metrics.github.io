@@ -17,15 +17,14 @@ author_profile: true
 {% if working_papers.size > 0 %}
   <h2>Working Papers</h2><hr />
   {% for post in working_papers %}
-    {% include archive-single.html %}
+    {% include archive-single-research.html %}
   {% endfor %}
 {% endif %}
 
 {% if published_papers.size > 0 %}
   <h2>Published Papers</h2><hr />
   {% for post in published_papers %}
-    {% include archive-single.html %}
+    {% include archive-single-research.html show_publication_details=true %}
   {% endfor %}
 {% endif %}
-
 

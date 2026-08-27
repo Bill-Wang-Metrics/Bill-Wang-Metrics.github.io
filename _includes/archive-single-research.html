@@ -1,0 +1,15 @@
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ post.paperurl }}">{{ post.title }}</a>
+    </h2>
+
+    {% if include.show_publication_details %}
+      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
+    {% endif %}
+
+    <div class="archive__item-excerpt" itemprop="description">
+      {{ post.content }}
+    </div>
+  </article>
+</div>
