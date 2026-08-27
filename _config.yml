@@ -26,11 +26,11 @@ author:
   avatar           : "profile.png"
   name             : "Bill Wang"
   pronouns         : # example: "she/her"  
-  bio              : "Researcher"
+  bio              : "Postdoctoral Fellow"
   location         :
-  employer         :
+  employer         : "University of Texas at Austin"
   uri              : # URL
-  email            :
+  email            : "lei.wang@austin.utexas.edu"
 
   # Academic websites
   academia         : # URL
