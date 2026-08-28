@@ -9,7 +9,7 @@
 
 main:
   - title: "Research"
-    url: /publications/
+    url: /research/
 
   - title: "CV"
     url: /files/CV_Bill_Wang.pdf
