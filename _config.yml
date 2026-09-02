@@ -88,6 +88,8 @@ publication_category:
     title: "Working Papers"
   publications:
     title: "Publications"
+  predoctoral:
+    title: "Predoctoral Work"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

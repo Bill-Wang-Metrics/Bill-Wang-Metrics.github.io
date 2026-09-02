@@ -14,6 +14,7 @@ classes: research-page
 
 {% assign working_papers = site.publications | where: "category", "workingpapers" | sort: "date" | reverse %}
 {% assign published_papers = site.publications | where: "category", "publications" | sort: "date" | reverse %}
+{% assign predoctoral_work = site.publications | where: "category", "predoctoral" | sort: "date" | reverse %}
 
 {% if working_papers.size > 0 %}
   <h2>Working Papers</h2><hr />
@@ -25,6 +26,13 @@ classes: research-page
 {% if published_papers.size > 0 %}
   <h2>Publications</h2><hr />
   {% for post in published_papers %}
+    {% include archive-single-research.html show_publication_details=true %}
+  {% endfor %}
+{% endif %}
+
+{% if predoctoral_work.size > 0 %}
+  <h2>Predoctoral Work</h2><hr />
+  {% for post in predoctoral_work %}
     {% include archive-single-research.html show_publication_details=true %}
   {% endfor %}
 {% endif %}

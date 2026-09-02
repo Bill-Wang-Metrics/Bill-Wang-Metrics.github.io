@@ -1,7 +1,7 @@
 ---
 title: "Pareto Criterion and Long-Term Perspective Criterion under Myopic Discounting"
 collection: publications
-category: publications
+category: predoctoral
 permalink: /publication/myopic-discounting
 date: 2019-01-01
 venue: "Economics Bulletin, 39(1), 24–32"

@@ -1,7 +1,7 @@
 ---
 title: "A Cost-Effective Approach to Portfolio Construction with Range-Based Risk Measures"
 collection: publications
-category: publications
+category: predoctoral
 permalink: /publication/range-based-risk-measures
 date: 2021-01-01
 venue: "Quantitative Finance, 21(3), 431–447"

@@ -1,7 +1,7 @@
 ---
 title: "Financial Thought Experiment: A GAN-Based Approach to Vast Robust Portfolio Selection"
 collection: publications
-category: publications
+category: predoctoral
 permalink: /publication/financial-thought-experiment
 date: 2020-01-01
 venue: "Proceedings of the Twenty-Ninth IJCAI, Special Track on AI in FinTech"
