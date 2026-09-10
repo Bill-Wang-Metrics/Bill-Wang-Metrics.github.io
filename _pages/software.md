@@ -6,8 +6,9 @@ author_profile: true
 classes: software-page
 ---
 
-Hongying Li, Li Li, and I jointly develop and maintain the
-<code>targetree</code> package, which is available in
+[Hongying Li](https://stat.osu.edu/people/li.14067),
+[Li Li](https://scholar.google.com/citations?user=UqZoDRcAAAAJ&hl=en), and I
+jointly develop and maintain the <code>targetree</code> package, which is available in
 [Python](https://github.com/Bill-Wang-Metrics/targetree-python),
 [R](https://github.com/Bill-Wang-Metrics/targetree-r), and
 [Stata](https://github.com/Bill-Wang-Metrics/targetree-stata).
@@ -17,25 +18,22 @@ visualize interpretable binary classification trees for policy targeting. The
 three implementations provide a common workflow for fitting CART, PFS, and
 MDFS trees and presenting the resulting targeting policies.
 
-<div class="software-grid">
-  <a class="software-card" href="https://github.com/Bill-Wang-Metrics/targetree-python">
-    <span class="software-card__language">Python</span>
-    <h2>targetree for Python</h2>
-    <p>Fit CART, PFS, and MDFS trees, as well as the knowledge-distillation variants KD-CART and KD-MDFS.</p>
-    <span class="software-card__link">View the Python package <span aria-hidden="true">&rarr;</span></span>
-  </a>
+## What targetree produces
 
-  <a class="software-card" href="https://github.com/Bill-Wang-Metrics/targetree-r">
-    <span class="software-card__language">R</span>
-    <h2>targetree for R</h2>
-    <p>Use a native R implementation of CART, PFS, and MDFS with clear targeting-policy diagrams.</p>
-    <span class="software-card__link">View the R package <span aria-hidden="true">&rarr;</span></span>
-  </a>
+The figure below illustrates the package's main output: an interpretable
+targeting policy constructed from a fitted classification tree. At each
+internal node, the left branch satisfies the displayed condition and the right
+branch does not. Each terminal node reports the subgroup's estimated outcome
+probability, $\hat{\mu}$, and sample size, $N$. Blue terminal nodes are targeted
+because their estimated probabilities exceed the policy threshold of 0.35;
+white terminal nodes are not targeted.
 
-  <a class="software-card" href="https://github.com/Bill-Wang-Metrics/targetree-stata">
-    <span class="software-card__language">Stata</span>
-    <h2>targetree for Stata</h2>
-    <p>Fit, evaluate, and visualize CART, PFS, and MDFS targeting trees directly in Stata.</p>
-    <span class="software-card__link">View the Stata package <span aria-hidden="true">&rarr;</span></span>
+<figure class="targetree-example">
+  <a href="{{ '/files/targetree-mdfs-tree.pdf' | relative_url }}" aria-label="Open the targeting-policy diagram as a PDF">
+    <img src="{{ '/images/targetree-mdfs-tree.png' | relative_url }}" alt="MDFS targeting policy shown as a binary tree. Internal nodes contain split rules, and blue terminal nodes identify subgroups with estimated outcome probabilities above 0.35.">
   </a>
-</div>
+  <figcaption>
+    Example targeting policy constructed using MDFS. Select the figure to open
+    the full-resolution PDF.
+  </figcaption>
+</figure>
