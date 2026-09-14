@@ -7,4 +7,4 @@ date: 2026-09-11
 paperurl: "https://arxiv.org/abs/2609.13068"
 ---
 
-With Hongying Li.
+With [Hongying Li](https://www.linkedin.com/in/hongying-li-309668349/).
